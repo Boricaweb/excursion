@@ -1,0 +1,87 @@
+/*Global set up*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: white;
+    --link-color: Aquamarine;
+    --secondary-color: Gray;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Linked*/
+a {
+    color: var(--link-color);
+    font-size: 1rem;
+}
+
+/*h2*/
+h2 {
+    color: var(--primary-color);
+    font-size: 42px;
+    font-weight: 300;
+}
+
+/*Paragraph*/
+p {
+    color: var(--secondary-color);
+    font-size: 21px;
+}
+
+
+/*Header*/
+header {
+    display: block;
+    margin: 2rem 0;
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+
+/*Main section*/
+main {
+    display: block;
+    margin: 1rem 0;
+}
+
+main h2 {
+    margin: 2rem 0;
+}
+
+main p {
+    margin: 1rem 0;
+}
+
+/*Footer*/
+footer {
+    display: block;
+    margin: 1rem 1rem;
+}
+
+footer h2 {
+    margin: 2rem;
+}
+
+footer p {
+    text-align: right;
+    margin-top: 2rem;
+}
